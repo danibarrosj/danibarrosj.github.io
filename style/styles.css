@@ -123,6 +123,16 @@ li{
 }
 #certification{
     display: none;
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 20px; /* Adds spacing between images */
+    align-items: center; /* Aligns images properly */
+}
+.cert{
+    width: 150px; /* Sets all images to the same width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures the images are not stretched */
+    border-radius: 5px; 
 }
 #certification.show{
     display: block;
