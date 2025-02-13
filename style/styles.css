@@ -42,10 +42,16 @@ p{
     margin-bottom: 4px;
     text-align: left;
 }
+.job{
+    display: flex;
+    justify-content: space-between; /* Moves company name left, date right */
+    align-items: center; /* Ensures they stay aligned */
+    width: 100%;
+}
 .date{
     color: rgb(11, 70, 11);
-    margin-left: 500px;
-    max-width: 1000px; 
+    text-align: right;
+    flex-shrink: 0;
 }
 ul{
     text-align: center;
