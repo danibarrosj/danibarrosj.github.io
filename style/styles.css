@@ -1,11 +1,3 @@
-body {
-    background-image: url("C:\Users\Danib\Downloads\Back.webp"); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire page */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-}
-
-
 h1 {
     text-align: center;
     font-family:"Times New Roman";
