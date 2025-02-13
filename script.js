@@ -1,12 +1,14 @@
 function toggleWorkExperience() {
-    var section = document.querySelector(".summary-box");
-    var heading = document.getElementById("work-experience");
+    var section = document.getElementById("work-experience");
+    var heading = document.getElementById("toggle-work");
 
-    if (section.style.display === "none" || section.style.display === "") {
-        section.style.display = "block";
+    // Toggle the 'show' class
+    section.classList.toggle("show");
+
+    // Change the arrow icon dynamically
+    if (section.classList.contains("show")) {
         heading.innerHTML = "WORK EXPERIENCE ▲";
     } else {
-        section.style.display = "none";
         heading.innerHTML = "WORK EXPERIENCE ▼";
     }
 }
