@@ -6,8 +6,9 @@ h1 {
 h2,h3{
     text-align: center;
     font-family:"Times New Roman";
-    color: rgb(56, 15, 15);
+    color: rgb(53, 52, 52);
 }
-h4,p,ul,li{
+h4,p,ul{
     text-align: center;
+    list-style-position: inside;
 }
