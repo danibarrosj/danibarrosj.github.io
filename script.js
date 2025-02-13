@@ -26,3 +26,19 @@ function toggleProfessionalSummary() {
         heading.innerHTML = "PROFESSIONAL SUMMARY ▼";
     }
 }
+
+function toggleEducation() {
+    var section = document.getElementById("education");
+    var heading = document.getElementById("toggle_edu");
+
+    // Toggle the 'show' class
+    section.classList.toggle("show");
+
+    // Change the arrow icon dynamically
+    if (section.classList.contains("show")) {
+        heading.innerHTML = "EDUCATION ▲";
+    } else {
+        heading.innerHTML = "EDUCATION ▼";
+    }
+}
+

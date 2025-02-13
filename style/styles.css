@@ -56,3 +56,9 @@ li{
 #professional-summary.show{
     display: block;
 }
+#education{
+    display: none;
+}
+#education.show{
+    display: block;
+}
