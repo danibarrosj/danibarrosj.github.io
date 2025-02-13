@@ -22,6 +22,7 @@ h3{
 h4{
     margin-top: 2px;
     margin-bottom: 3px;
+    text-align: left;
 }
 p{
     margin-top: 3px;
@@ -31,7 +32,7 @@ p{
     margin-left: 200px;
     
 }
-h4,p,ul{
+p,ul{
     text-align: center;
     list-style-position: inside;
 }
