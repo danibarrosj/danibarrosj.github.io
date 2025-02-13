@@ -8,6 +8,14 @@ h2,h3{
     font-family:"Times New Roman";
     color: rgb(53, 52, 52);
 }
+.summary-box{
+    width: 70%; /* Adjust the width as needed (e.g., 50%, 400px, etc.) */
+    max-width: 600px; /* Prevents it from getting too wide */
+    margin: 20px auto; /* Centers the box horizontally */
+    padding: 15px; /* Adds space inside the box */
+    text-align: justify; /* Aligns text for better readability */
+    line-height: 1.5; /* Improves spacing between lines */
+}
 h4{
     margin-bottom: 5px;
 }
