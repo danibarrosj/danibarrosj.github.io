@@ -14,6 +14,9 @@ h4{
 p{
     margin-top: 5px;
 }
+.date{
+    margin-left: 20px;
+}
 h4,p,ul{
     text-align: center;
     list-style-position: inside;
