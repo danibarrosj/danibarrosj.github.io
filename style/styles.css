@@ -33,3 +33,10 @@ h4,p,ul{
     text-align: center;
     list-style-position: inside;
 }
+.bullet{
+    width: 80%; 
+    max-width: 950px; 
+    margin: 1% auto; 
+    text-align: justify; 
+    line-height: 1.3;
+}
