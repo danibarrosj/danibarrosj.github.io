@@ -1,6 +1,12 @@
 body {
     background-image: url(back.jpg);
-    background-size:auto /* Ensures it covers the entire screen */
+    background-size:auto;
+    max-width: 1200px; /* Keeps the page at a reasonable width */
+    width: 95%; /* Adjusts for smaller screens */
+    margin: 0 auto; /* Centers content horizontally */
+    font-size: 16px; /* Standard font size */
+    line-height: 1.6; /* Improves readability */
+    
 }
 h1 {
     text-align: center;
