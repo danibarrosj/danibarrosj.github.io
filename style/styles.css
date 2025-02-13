@@ -8,6 +8,6 @@ h2,h3{
     font-family:"Times New Roman";
     color: rgb(56, 15, 15);
 }
-h4,p,ul{
+h4,p,ul,li{
     text-align: center;
 }
