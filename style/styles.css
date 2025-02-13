@@ -92,9 +92,15 @@ li{
 #skills.show{
     display: block;
 }
+.degree{
+    display: flex;
+    justify-content: space-between; /* Moves company name left, date right */
+    align-items: center; /* Ensures they stay aligned */
+    width: 100%;
+    padding-right: 30px;
+}
 .date_edu{
     color: rgb(60, 51, 141);
-    margin-left: 350px;
-    max-width: 400px; 
-    padding-right: 25px;
+    text-align: right;
+    flex-shrink: 0;
 }
