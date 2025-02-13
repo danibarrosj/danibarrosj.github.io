@@ -25,10 +25,11 @@ h4{
 }
 p{
     margin-top: 3px;
+    margin-bottom: 3px;
 }
 .date{
     margin-left: 200px;
-    margin-bottom: 3px;
+    
 }
 h4,p,ul{
     text-align: center;
