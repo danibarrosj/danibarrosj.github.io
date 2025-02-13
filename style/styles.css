@@ -26,6 +26,17 @@ h2 a{
     color: rgb(83, 48, 48);
     font-family: cursive;
 }
+.phone-link {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .phone-text {
+        display: none; /* Hide plain text on mobile */
+    }
+    .phone-link {
+        display: inline; /* Show call link on mobile */
+    }
+}
 h3{
     text-align: center;
     font-family:"Times New Roman";
