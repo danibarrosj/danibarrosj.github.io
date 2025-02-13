@@ -12,7 +12,7 @@ h3{
     margin-bottom: 3px;
 }
 .summary-box{
-    width: 90%; 
+    width: 95%; 
     max-width: 1000px; 
     margin: 1% auto; 
     text-align: justify; 
@@ -27,12 +27,14 @@ h4{
 p{
     margin-top: 3px;
     margin-bottom: 4px;
+    text-align: left;
+
 }
 .date{
     margin-left: 200px;
     
 }
-p,ul{
+ul{
     text-align: center;
     list-style-position: inside;
 }
