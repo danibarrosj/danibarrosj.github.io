@@ -1,10 +1,6 @@
 body {
     background-image: url(back.jpg);
-    background-size:auto;
-    max-width: 1200px; /* Keeps the page at a reasonable width */
-    width: 95%; /* Adjusts for smaller screens */
-    margin: 0; /* Centers content horizontally */
-    font-size: 16px; /* Standard font size */ 
+    background-size:auto; 
 }
 .summary-box{
     width: 100%; 
