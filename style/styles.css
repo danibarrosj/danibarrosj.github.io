@@ -1,5 +1,10 @@
 h1 {
     text-align: center;
     font-family:"Times New Roman";
-    color: crimson;
+    color: rgb(8, 4, 4);
+}
+h2{
+    text-align: center;
+    font-family:"Times New Roman";
+    color: rgb(56, 15, 15);
 }
