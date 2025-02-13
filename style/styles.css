@@ -26,6 +26,8 @@ h3{
     text-align: center;
     font-family:"Times New Roman";
     margin-bottom: 3px;
+    text-decoration: underline;
+    color: #151a02;
 }
 .summary-box{
     width: 95%; 
