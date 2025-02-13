@@ -41,6 +41,20 @@ function toggleEducation() {
         heading.innerHTML = "EDUCATION ▼";
     }
 }
+function toggleEducationPro() {
+    var section = document.getElementById("school");
+    var heading = document.getElementById("toggle_edu_pro");
+
+    // Toggle the 'show' class
+    section.classList.toggle("show");
+
+    // Change the arrow icon dynamically
+    if (section.classList.contains("show")) {
+        heading.innerHTML = "ACADEMIC PROJECTS ▲";
+    } else {
+        heading.innerHTML = "ACADEMIC PROJECTS ▼";
+    }
+}
 
 function toggleSkills() {
     var section = document.getElementById("skills");

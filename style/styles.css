@@ -109,6 +109,12 @@ li{
 #education.show{
     display: block;
 }
+#school{
+    display: none;
+}
+#school.show{
+    display: block;
+}
 #skills{
     display: none;
 }
