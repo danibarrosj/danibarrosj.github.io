@@ -67,6 +67,7 @@ li{
     display: block;
 }
 .date_edu{
-    color: rgb(91, 45, 121);
-    margin-left: 500px;
+    color: rgb(10, 90, 34);
+    margin-left: 400px;
+    max-width: 4000px; 
 }
