@@ -46,6 +46,6 @@ li{
     display: none; 
 }
 
-#work-details.show {
+#work-experience.show {
     display: block;
 }
