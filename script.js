@@ -42,3 +42,17 @@ function toggleEducation() {
     }
 }
 
+function toggleSkills() {
+    var section = document.getElementById("skills");
+    var heading = document.getElementById("toggle_ski");
+
+    // Toggle the 'show' class
+    section.classList.toggle("show");
+
+    // Change the arrow icon dynamically
+    if (section.classList.contains("show")) {
+        heading.innerHTML = "SKILLS ▲";
+    } else {
+        heading.innerHTML = "SKILLS ▼";
+    }
+}

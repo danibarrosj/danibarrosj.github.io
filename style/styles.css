@@ -66,6 +66,12 @@ li{
 #education.show{
     display: block;
 }
+#skills{
+    display: none;
+}
+#skills.show{
+    display: block;
+}
 .date_edu{
     color: rgb(60, 51, 141);
     margin-left: 350px;
