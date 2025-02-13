@@ -122,14 +122,14 @@ li{
     display: block;
 }
 #certification{
-    display: flex; /* Enables flexbox */
+    display: flex; 
     justify-content: center; /* Centers the images horizontally */
-    gap: 20px; /* Adds spacing between images */
-    align-items: center; /* Aligns images properly */
+    gap: 20px; 
+    align-items: center; 
     flex-wrap: wrap; /* Ensures they don't shift incorrectly */
     max-height: 0; /* Starts hidden */
     overflow: hidden; /* Prevents content from showing */
-    transition: max-height 0.5s ease-in-out; /* Smooth animation */
+    transition: max-height 0.5s ease-in-out;
 }
 .cert{
     width: 150px; /* Sets all images to the same width */
