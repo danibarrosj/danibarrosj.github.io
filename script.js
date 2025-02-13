@@ -12,7 +12,7 @@ function toggleWorkExperience() {
         heading.innerHTML = "WORK EXPERIENCE ▼";
     }
 }
-function toggleWorkExperience() {
+function toggleProfessionalSummary() {
     var section = document.getElementById("professional-summary");
     var heading = document.getElementById("toggle-summary");
 
