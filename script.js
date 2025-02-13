@@ -1,12 +1,12 @@
 function toggleWorkExperience() {
-    var section = document.getElementById("work-experience");
-    var heading = document.querySelector(".toggle-heading");
+    var section = document.querySelector(".summary-box");
+    var heading = document.getElementById("work-experience");
 
     if (section.style.display === "none" || section.style.display === "") {
         section.style.display = "block";
-        heading.innerHTML = "Work Experience ▲"; // Change arrow
+        heading.innerHTML = "WORK EXPERIENCE ▲";
     } else {
         section.style.display = "none";
-        heading.innerHTML = "Work Experience ▼";
+        heading.innerHTML = "WORK EXPERIENCE ▼";
     }
 }
