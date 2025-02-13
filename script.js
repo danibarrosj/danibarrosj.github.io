@@ -41,20 +41,21 @@ function toggleEducation() {
         heading.innerHTML = "EDUCATION ▼";
     }
 }
-function toggleEducationPro() {
-    var section = document.getElementById("school");
-    var heading = document.getElementById("toggle_edu_pro");
+function toggleCertifications() {
+    var section = document.getElementById("certification");
+    var heading = document.getElementById("toggle_certs");
 
     // Toggle the 'show' class
     section.classList.toggle("show");
 
     // Change the arrow icon dynamically
     if (section.classList.contains("show")) {
-        heading.innerHTML = "ACADEMIC PROJECTS ▲";
+        heading.innerHTML = "CERTIFICATIONS ▲";
     } else {
-        heading.innerHTML = "ACADEMIC PROJECTS ▼";
+        heading.innerHTML = "CERTIFICATIONS ▼";
     }
 }
+
 
 function toggleSkills() {
     var section = document.getElementById("skills");

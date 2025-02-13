@@ -121,6 +121,12 @@ li{
 #skills.show{
     display: block;
 }
+#certification{
+    display: none;
+}
+#certification.show{
+    display: block;
+}
 .degree{
     display: flex;
     justify-content: space-between; /* Moves company name left, date right */
