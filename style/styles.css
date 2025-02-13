@@ -137,6 +137,10 @@ li{
     object-fit: contain; /* Ensures the images are not stretched */
     border-radius: 5px; 
 }
+.cert:hover{
+    transform: scale(1.1); /* Slight zoom effect */
+    cursor: pointer;
+}
 #certification.show{
     max-height: 300px;
 }
