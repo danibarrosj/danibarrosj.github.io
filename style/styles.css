@@ -3,10 +3,18 @@ body {
     background-size:auto;
     max-width: 1200px; /* Keeps the page at a reasonable width */
     width: 95%; /* Adjusts for smaller screens */
-    margin: 0 auto; /* Centers content horizontally */
-    font-size: 16px; /* Standard font size */
-    line-height: 1.6; /* Improves readability */
-    
+    margin: 0; /* Centers content horizontally */
+    font-size: 16px; /* Standard font size */ 
+}
+.summary-box{
+    width: 100%; 
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: 0; 
+    text-align: justify; 
+    line-height: 1.3;
+    background-color: rgba(110, 158, 161, 0.651);
 }
 h1 {
     text-align: center;
@@ -21,16 +29,7 @@ h2,h3{
 h3{
     margin-bottom: 3px;
 }
-.summary-box{
-    width: 100%; 
-    max-width: 1000px; 
-    margin-left: auto;
-    margin-top: 0;
-    margin-right: 0; 
-    text-align: justify; 
-    line-height: 1.3;
-    background-color: aliceblue;
-}
+
 h4{
     margin-top: 2px;
     margin-bottom: 3px;
