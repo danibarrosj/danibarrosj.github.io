@@ -14,9 +14,22 @@ h4{
 p{
     margin-top: 5px;
 }
-.date{
-    margin-left: 200px;
+.job-entry {
+    display: flex;
+    justify-content: space-between; /* Pushes left and right apart */
+    width: 100%; /* Ensures it takes full width */
+    padding: 5px 0; /* Optional: Adds some vertical spacing */
 }
+
+.job-title {
+    text-align: left; /* Aligns the job title to the left */
+}
+
+.job-date {
+    text-align: right; /* Aligns the date to the right */
+    color: rgb(128, 9, 9); /* Optional: Make the date text a bit softer */
+}
+
 h4,p,ul{
     text-align: center;
     list-style-position: inside;
