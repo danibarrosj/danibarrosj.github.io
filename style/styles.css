@@ -49,3 +49,10 @@ li{
 #work-experience.show {
     display: block;
 }
+
+#professional-summary{
+    display: none;
+}
+#professional-summary.show{
+    display: block;
+}
