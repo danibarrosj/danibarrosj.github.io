@@ -30,11 +30,6 @@ p{
     text-align: left;
 
 }
-.work-entry {
-    display: flex;
-    justify-content: space-between; 
-    width: 100%; 
-}
 .date{
     text-align: right;
     color: rgb(11, 70, 11);
