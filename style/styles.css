@@ -68,7 +68,9 @@ ul{
     list-style-position: inside;
     margin-top: 2px;
 }
-
+p i{
+    color: #1b1b1b;
+}
 li{
     margin-top: 3px;
     text-align: left;
