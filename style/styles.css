@@ -122,7 +122,6 @@ li{
     display: block;
 }
 #certification{
-    display: none;
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers the images horizontally */
     gap: 20px; /* Adds spacing between images */
