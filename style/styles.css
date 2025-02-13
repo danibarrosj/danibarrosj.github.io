@@ -8,6 +8,12 @@ h2,h3{
     font-family:"Times New Roman";
     color: rgb(53, 52, 52);
 }
+h4{
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 5px;
+}
 h4,p,ul{
     text-align: center;
     list-style-position: inside;
