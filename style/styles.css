@@ -37,6 +37,7 @@ h4{
     margin-top: 2px;
     margin-bottom: 3px;
     text-align: left;
+    color: crimson;
 }
 p{
     margin-top: 3px;
@@ -58,10 +59,9 @@ p{
 ul{
     text-align: center;
     list-style-position: inside;
-}
-ul{
     margin-top: 2px;
 }
+
 li{
     margin-top: 3px;
     text-align: left;
