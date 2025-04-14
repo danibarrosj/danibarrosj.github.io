@@ -1,13 +1,21 @@
 body {
-    background-image: url(yankee.jpg);
-    background-size:cover; 
-    background-position: center;
-    background-attachment: fixed;
-    margin:0;
-    padding: 0;
-
+    background-color: white;
+    color:black
 }
-
+.main-nav{
+    display:flex;
+    justify-content: flex-end;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 1rem 4rem 1rem 1rem;
+}
+.btn {
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
 h1 {
     margin-top: 0;
     text-align: center;
