@@ -61,7 +61,8 @@ h4{
     color: rgb(90, 8, 25);
 }
 h5{
-    margin:0px;
+    margin-top: 0px;
+    margin-bottom: 7px;
 }
 p{
     margin-top: 3px;
@@ -123,6 +124,9 @@ li{
 }
 #skills.show{
     display: block;
+}
+.project p{
+    margin-bottom: 20px;
 }
 #certification{
     display: flex; 

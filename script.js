@@ -50,9 +50,9 @@ function toggleEducationPro() {
 
     // Change the arrow icon dynamically
     if (section.classList.contains("show")) {
-        heading.innerHTML = "ACADEMIC PROJECTS ▲";
+        heading.innerHTML = "PROJECTS ▲";
     } else {
-        heading.innerHTML = "ACADEMIC PROJECTS ▼";
+        heading.innerHTML = "PROJECTS ▼";
     }
 }
 
