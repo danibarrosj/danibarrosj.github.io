@@ -96,47 +96,41 @@
               </ul>
         </div> 
     <h2 class = "title"> PROJECTS </h2>
-   <div class="projects">
-    <div class ="project">
-     <h4>URL SHORTNER WEB APP</h4>
-     <h5><i>Python, Flask, HTML, CSS, API</i></h5>
-      <p>Built a web application that converts long URLs into short, unique links using Flask. Implemented routing to handle redirections, form validation, and a simple mapping system to store and retrieve original URLs. Designed a clean front-end and integrated error handling for broken or expired links.</p>
-   </div>
-   <div class ="project">
-    <h4>STUDENT MANAGEMENT SYSTEM</h4>
-     <h5><i>C++, OOP, FILE HANDLING</i></h5>
-      <p>Created a console-based system to manage student records using object-oriented programming. Implemented features for adding, editing, displaying, and saving student data to files, with focus on encapsulation and class design.      </p>
-   </div> 
-   <div class ="project">
-    <h4>WEATHER DASHBOARD</h4>
-     <h5><i>HTML,CSS,JavaScript, API</i></h5>
-      <p>Developing an interactive weather dashboard that allows users to search cities and view current weather and forecasts using OpenWeatherMap API. Integrates dynamic styling, responsive layout, and local storage for search history.      </p>
-   </div> 
-   <div class ="project">
-    <h4>GITHUB REPOSITORIES <a href="https://github.com/danibarrosj" target="_blank">   (My Github Homepage)  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="18"></a></h4>
-     <h5><i>HTML,CSS,JavaScript,C++,JAVA</i></h5>
-      <p>Over 20 small projects that I have been doing in my personal time to get the basics of each technical language. Some of these projects have been school projects while others are home made.</p>
-   </div> 
-   </div>
-    <h2 class = "title">EDUCATION </h2>
-    <div class="education">
-      <ul>
-      <div class="degree">
-        <li><strong>Master of Computer Science & Information Technology</strong></li>
-        <span class='date_edu'>Exp. December, 2025</span>
-      </div>  
-        <p style="text-align: left"><i>Sacred Heart University</i></p>
-      <div class="degree">
-        <li><strong>Master of Business Administration (Management & HR) GPA 3.86 </strong></li>
-        <span class='date_edu'>December, 2024</span>
-      </div>     
-        <p style="text-align: left"><i>Sacred Heart University</i></p>
-      <div class="degree">    
-        <li><strong>Bachelor's Degree of Science in Business Administration GPA 3.65</strong></li>
-        <span class='date_edu'>December, 2023</span>
-      </div>     
-        <p style="text-align: left"><i>University of Maryland Global Campus Japan</i></p>
-      </ul>
+    <div class="projects-slideshow">
+      <button class="arrow left" id="prev">&#10094;</button>
+      <div class="project-slide">
+        <h4 id="project-title"></h4>
+        <h5 id="project-tech"></h5>
+        <p id="project-desc"></p>
+      </div>
+      <button class="arrow right" id="next">&#10095;</button>
+    </div>
+    <h2 class="title">EDUCATION</h2>
+<div class="education">
+  <div class="degree">
+    <div class="degree-info">
+      <strong>Master of Computer Science & Information Technology</strong>
+      <p><i>Sacred Heart University</i></p>
+    </div>
+    <span class="date_edu">Exp. December, 2025</span>
+  </div>
+
+  <div class="degree">
+    <div class="degree-info">
+      <strong>Master of Business Administration (Management & HR) GPA 3.86</strong>
+      <p><i>Sacred Heart University</i></p>
+    </div>
+    <span class="date_edu">December, 2024</span>
+  </div>
+
+  <div class="degree">
+    <div class="degree-info">
+      <strong>Bachelor's of Science in Business Administration GPA 3.65</strong>
+      <p><i>University of Maryland Global Campus Japan</i></p>
+    </div>
+    <span class="date_edu">December, 2023</span>
+  </div>
+</div>
       <h2 class = "sub-title">RELEVANT COURSES </h2>
       <div class="courses">
         <h3>Computer Science</h3>
@@ -187,22 +181,7 @@
        <a href='https://lh3.googleusercontent.com/pw/AP1GczMVHgZK6HcAvsCuAryoEK2dcbLGt_PNzCSldNxIh7OoRQQTAuugqKjLGr5WtW2TxAFFPt9ar2P-AmChw3u5FD_QS6n8hQjPucFGXXoe9KLoQwVeb5cCsDwJMY1agZf5xv2W1iwAnyxIXvwygu2oU2OqWg=w1618-h911-s-no-gm?authuser=0' target="_blank"><img class="cert" src='https://images.credly.com/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png' alt="csis plus cert"></a>
       </div>   
   </div>
-  <script>
-    const photos = [
-      'doraemon.jpg',
-      'cat3.jpg',
-      'cat4.jpg',
-      'cat5.webp',
-      'cat6.webp',
-    ];
-  
-    let index = 0;
-    const img = document.getElementById('slideshow-photo');
-  
-    setInterval(() => {
-      index = (index + 1) % photos.length;
-      img.src = photos[index];
-    }, 4000); // changes every 3 seconds
+  <script src = "script.js">
   </script>
   </body>
 </html>

@@ -74,10 +74,40 @@ a{
     display: inline-block;
   }
   
-
-
-
-
+  .projects-slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(164, 220, 235, 0.678);
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+  }
+  
+  .project-slide {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .project-slide h4{
+    text-align: center;
+  }
+  .arrow {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #333;
+    transition: transform 0.2s;
+  }
+  
+  .arrow:hover {
+    transform: scale(1.2);
+  }
 
 
 h1 {
@@ -166,13 +196,8 @@ li{
     border-radius: 15px;
     margin-bottom: 20px;
 }
-.education{
-    background-color: rgba(237, 241, 197, 0.671);
-    border-radius: 15px;
-    padding: 20px;
-    margin-bottom: 20px;
-    padding-top: 30px;
-}
+
+
 .degree li{
     list-style-type: none;
 }
@@ -188,6 +213,8 @@ li{
     padding: 20px;
     margin-bottom: 20px;
     padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .project p{
@@ -210,15 +237,31 @@ li{
 #certification.show{
     max-height: 300px;
 }
-.degree{
+.education {
+    background-color: rgba(237, 241, 197, 0.671);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .degree {
     display: flex;
-    justify-content: space-between; /* Moves company name left, date right */
-    align-items: center; /* Ensures they stay aligned */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
     width: 100%;
-    padding-right: 30px;
-}
-.date_edu{
+  }
+  
+  .degree-info {
+    text-align: left;
+    max-width: 75%;
+  }
+  
+  .date_edu {
     color: rgb(60, 51, 141);
     text-align: right;
-    flex-shrink: 0;
-}
+    white-space: nowrap;
+  }
