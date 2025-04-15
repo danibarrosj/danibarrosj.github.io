@@ -63,8 +63,8 @@ a{
     max-width: 1200px;
     border-radius: 10px;
     padding: 2rem;
-    height: 350px;
     line-height: 2;
+    max-height: 350px;
   }
   
   .profile-summary h2 {
