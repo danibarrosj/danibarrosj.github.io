@@ -77,3 +77,20 @@ document.getElementById("contact-btn").addEventListener("click", function () {
     alert(`You can reach me at: ${phoneNumber}`);
   }
 });
+
+window.addEventListener('scroll', function () {
+  const nav = document.querySelector('.main-nav');
+  if (window.scrollY > 50) {
+    nav.classList.add('shrink');
+  } else {
+    nav.classList.remove('shrink');
+  }
+});
+
+document.getElementById("courses-toggle").addEventListener("click", function () {
+  const dropdown = document.getElementById("courses-dropdown");
+  const isOpen = dropdown.style.display === "block";
+
+  dropdown.style.display = isOpen ? "none" : "block";
+  this.textContent = isOpen ? "▶ Relevant Courses" : "▼ Relevant Courses";
+});
