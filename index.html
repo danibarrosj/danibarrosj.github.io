@@ -28,7 +28,7 @@
     </div>
       <div class="profile-section">
         <div class="profile-image">
-          <img src="doraemon.jpg" alt="Daniel Barros" />
+          <img id="slideshow-photo" src="doraemon.jpg" alt="Daniel Barros" />
         </div>
         <div class="profile-summary">
           <h2>Professional Summary</h2>
@@ -187,6 +187,22 @@
        <a href='https://lh3.googleusercontent.com/pw/AP1GczMVHgZK6HcAvsCuAryoEK2dcbLGt_PNzCSldNxIh7OoRQQTAuugqKjLGr5WtW2TxAFFPt9ar2P-AmChw3u5FD_QS6n8hQjPucFGXXoe9KLoQwVeb5cCsDwJMY1agZf5xv2W1iwAnyxIXvwygu2oU2OqWg=w1618-h911-s-no-gm?authuser=0' target="_blank"><img class="cert" src='https://images.credly.com/images/8090280a-311f-425f-a1cd-a32770b5a444/CompTIA_CSIS.png' alt="csis plus cert"></a>
       </div>   
   </div>
-  <!-- <script src="script.js"></script> -->
+  <script>
+    const photos = [
+      'doraemon.jpg',
+      'cat3.jpg',
+      'cat4.jpg',
+      'cat5.webp',
+      'cat6.webp',
+    ];
+  
+    let index = 0;
+    const img = document.getElementById('slideshow-photo');
+  
+    setInterval(() => {
+      index = (index + 1) % photos.length;
+      img.src = photos[index];
+    }, 4000); // changes every 3 seconds
+  </script>
   </body>
 </html>
