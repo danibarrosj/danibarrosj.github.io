@@ -47,11 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const photos = [
-  'doraemon.jpg',
-  'cat3.jpg',
-  'cat4.jpg',
-  'cat5.webp',
-  'cat6.webp'
+  'image1.jpg',
+  'image3.jpg',
+  'image2.webp',
+  'image.webp',
+  'image4.webp'
 ];
 
 let index = 0;
