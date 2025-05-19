@@ -51,7 +51,7 @@ const photos = [
   'image3.jpg',
   'image2.webp',
   'image.webp',
-  'image4.webp'
+  'image4.jpg'
 ];
 
 let index = 0;
